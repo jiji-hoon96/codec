@@ -89,8 +89,75 @@ const Toy: NextPage = () => {
                 Let's get it done
             </div>
         </div>
-        <div className="bg-white flex-1 m-5 h-full flex flex-col">
-            <h1>Friends</h1>
+        <div className="flex-1 m-5 h-full flex flex-col bg-yellow-500">
+            <div className="flex m-10 items-center">
+                <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 15l-3-3m0 0l3-3m-3 3h8M3 12a9 9 0 1118 0 9 9 0 01-18 0z"></path></svg>
+                <h1 className="font-bold text-2xl mx-12 ">Friends</h1>
+            </div>
+            <div className="m-5 bg-white text-gray-500 h-12 border-2 border-black border-b-4 rounded-xl flex justify-between items-center p-2">
+                <h1 className="font-bold text-lg">Search with love ...</h1>
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+            </div>
+            <div className="border-2 border-black border-b-4 rounded-lg p-2 m-3 flex bg-white items-center justify-around">
+                <div className="bg-red-400 w-14 h-14 border-2 border-black rounded-full flex justify-center items-center font-extrabold text-xl mx-2">
+                    Lee
+                </div>
+                <div className="flex-col mr-10">
+                    <h1 className="font-bold text-xl">Ji hoon</h1>
+                    <h3 className="text-sm">Front-Develope</h3>
+                </div>
+                <div className="flex items-center w-16 h-10 justify-center bg-yellow-500 border-2 border-black border-b-4 rounded-xl">  
+                    Invite
+                </div>
+            </div>
+            <div className="border-2 border-black border-b-4 rounded-lg p-2 m-3 flex bg-white items-center justify-around">
+                <div className="bg-green-400 w-14 h-14 border-2 border-black rounded-full flex justify-center items-center font-extrabold text-xl mx-2">
+                    Jung
+                </div>
+                <div className="flex-col mr-10">
+                    <h1 className="font-bold text-lg">Hae young</h1>
+                    <h3 className="text-sm">Back-Develope</h3>
+                </div>
+                <div className="flex items-center w-16 h-10 justify-center bg-yellow-500 border-2 border-black border-b-4 rounded-xl">  
+                    Invite
+                </div>
+            </div>
+            <div className="border-2 border-black border-b-4 rounded-lg p-2 m-3 flex bg-white items-center justify-around">
+                <div className="bg-blue-400 w-14 h-14 border-2 border-black rounded-full flex justify-center items-center font-extrabold text-xl mx-2">
+                    Kim
+                </div>
+                <div className="flex-col mr-10">
+                    <h1 className="font-bold text-xl">Hong sik</h1>
+                    <h3 className="text-sm">Engineer</h3>
+                </div>
+                <div className="flex items-center w-16 h-10 justify-center bg-yellow-500 border-2 border-black border-b-4 rounded-xl">  
+                    Invite
+                </div>
+            </div>
+            <div className="border-2 border-black border-b-4 rounded-lg p-2 m-3 flex bg-white items-center justify-around">
+                <div className="bg-violet-400 w-14 h-14 border-2 border-black rounded-full flex justify-center items-center font-extrabold text-xl mx-2">
+                    Choi
+                </div>
+                <div className="flex-col mr-10">
+                    <h1 className="font-bold text-lg">Young hoon</h1>
+                    <h3 className="text-sm">Server-Engineer</h3>
+                </div>
+                <div className="flex items-center w-16 h-10 justify-center bg-yellow-500 border-2 border-black border-b-4 rounded-xl">  
+                    Invite
+                </div>
+            </div>
+            <div className="border-2 border-black border-b-4 rounded-lg p-2 m-3 flex bg-white items-center justify-around">
+                <div className="bg-orange-400 w-14 h-14 border-2 border-black rounded-full flex justify-center items-center font-extrabold text-xl mx-2">
+                    Yoo
+                </div>
+                <div className="flex-col mr-10">
+                    <h1 className="font-bold text-xl">Seong yong</h1>
+                    <h3 className="text-sm">Chef</h3>
+                </div>
+                <div className="flex items-center w-16 h-10 justify-center bg-yellow-500 border-2 border-black border-b-4 rounded-xl">  
+                    Invite
+                </div>
+            </div>
         </div>
     </div>
   );
